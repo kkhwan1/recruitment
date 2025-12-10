@@ -1,0 +1,8 @@
+{
+  "site_name": "알바천국",
+  "base_url": "https://www.alba.co.kr",
+  "search_url": "https://www.alba.co.kr/search/Search?wsSrchWord={keyword}",
+  "wait_time": 3,
+  "max_retries": 3,
+  "request_delay": 2
+}

@@ -1,0 +1,26 @@
+{
+  "site_name": "잡코리아",
+  "base_url": "https://www.jobkorea.co.kr",
+  "search_url": "https://www.jobkorea.co.kr/Search/?stext={keyword}&tabType=recruit",
+  "industry_search_url": "https://www.jobkorea.co.kr/recruit/joblist?menucode=industry",
+  "selectors": {
+    "search_input": "input[type='text'][placeholder*='검색'], input[id*='search'], input[class*='search']",
+    "search_button": "button[type='submit'], button[class*='search'], a[class*='search']",
+    "job_list": "#jk-«R1h7alqdb»-content-recruit > div > div",
+    "job_item": "div[class*='recruit'], div[class*='job'], a[href*='/Recruit/']",
+    "job_title": "a[class*='title'], span[class*='title'], div[class*='title']",
+    "job_company": "span[class*='company'], div[class*='company'], a[class*='company']",
+    "job_location": "span[class*='location'], div[class*='location'], span[class*='area']",
+    "job_salary": "span[class*='salary'], div[class*='salary'], span[class*='pay']",
+    "detail_title": "h1, div[class*='title'], span[class*='title']",
+    "detail_company": "span[class*='company'], div[class*='company'], a[class*='company']",
+    "detail_location": "span[class*='location'], div[class*='location'], span[class*='area']",
+    "detail_salary": "span[class*='salary'], div[class*='salary'], span[class*='pay']",
+    "detail_content": "div[class*='content'], div[class*='detail'], div[class*='description']",
+    "detail_conditions": "div[class*='condition'], div[class*='requirement'], ul[class*='list']",
+    "detail_posted_date": "span[class*='date'], div[class*='date'], time"
+  },
+  "wait_time": 2,
+  "max_pages": 5
+}
+

@@ -1,0 +1,14 @@
+{
+  "site_name": "잡플래닛",
+  "base_url": "https://www.jobplanet.co.kr",
+  "search_url": "https://www.jobplanet.co.kr/job/search?keyword={keyword}",
+  "wait_time": 3,
+  "max_retries": 3,
+  "request_delay": 2,
+  "selectors": {
+    "job_list_item": "a[href*='posting_ids'], a[href*='/companies/'][href*='/job_postings/']",
+    "detail_title": "h1",
+    "detail_company": "a[class*='company'], span[class*='company'], div[class*='company']",
+    "detail_content": "article, main, div[class*='content'], div[class*='detail']"
+  }
+}

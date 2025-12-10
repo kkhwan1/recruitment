@@ -1,0 +1,348 @@
+{
+  "check_started_at": "2025-12-06T16:34:07.094399",
+  "sites": {
+    "알바천국": {
+      "site_name": "알바천국",
+      "checked_at": "2025-12-06T16:34:07.097780",
+      "base_url": "https://www.alba.co.kr",
+      "main_page": {
+        "accessible": true,
+        "load_time_ms": 2865.23,
+        "status_code": 200,
+        "page_title": "모든 생애 모든 알바 알바천국",
+        "error": null,
+        "url_after_redirect": "https://www.alba.co.kr/"
+      },
+      "search_functionality": {
+        "search_page_accessible": true,
+        "search_load_time_ms": 1503.03,
+        "search_result_found": true,
+        "job_items_count": 144,
+        "job_links_found": 151,
+        "selectors_working": {
+          "a[href*=\"/job/\"]": 144,
+          "a[href*=\"/recruit/\"]": 7,
+          "div[class*=\"recruit\"]": 1,
+          "li[class*=\"job\"]": 1
+        },
+        "error": null
+      },
+      "detail_page": {
+        "accessible": true,
+        "load_time_ms": 1041.1,
+        "has_content": true,
+        "title_found": true,
+        "company_found": true,
+        "content_length": 280114,
+        "error": null
+      },
+      "overall_status": "healthy",
+      "issues": []
+    },
+    "알바몬": {
+      "site_name": "알바몬",
+      "checked_at": "2025-12-06T16:34:21.860500",
+      "base_url": "https://www.albamon.com",
+      "main_page": {
+        "accessible": true,
+        "load_time_ms": 4396.36,
+        "status_code": 200,
+        "page_title": "알바몬 | 세상의 모든 알바! 일자리 & 아르바이트 구인 구직 사이트",
+        "error": null,
+        "url_after_redirect": "https://www.albamon.com/"
+      },
+      "search_functionality": {
+        "search_page_accessible": true,
+        "search_load_time_ms": 1513.68,
+        "search_result_found": true,
+        "job_items_count": 315,
+        "job_links_found": 0,
+        "selectors_working": {
+          "div[class*=\"job\"]": 1,
+          "div[class*=\"recruit\"]": 315,
+          "article": 2
+        },
+        "error": null
+      },
+      "detail_page": {
+        "accessible": false,
+        "load_time_ms": null,
+        "has_content": false,
+        "title_found": false,
+        "company_found": false,
+        "content_length": 0,
+        "error": "공고 링크를 찾을 수 없음"
+      },
+      "overall_status": "warning",
+      "issues": [
+        "상세 페이지 접속 불가"
+      ]
+    },
+    "블라인드": {
+      "site_name": "블라인드",
+      "checked_at": "2025-12-06T16:34:35.570027",
+      "base_url": "https://www.teamblind.com",
+      "main_page": {
+        "accessible": false,
+        "load_time_ms": 298.43,
+        "status_code": 403,
+        "page_title": "Your Anonymous Workplace Community - Blind",
+        "error": null,
+        "url_after_redirect": "https://www.teamblind.com/"
+      },
+      "search_functionality": {},
+      "detail_page": {},
+      "overall_status": "failed",
+      "issues": [
+        "메인 페이지 접속 불가"
+      ]
+    },
+    "하이브레인넷": {
+      "site_name": "하이브레인넷",
+      "checked_at": "2025-12-06T16:34:39.925491",
+      "base_url": "https://www.hibrain.net",
+      "main_page": {
+        "accessible": true,
+        "load_time_ms": 2466.05,
+        "status_code": 200,
+        "page_title": "고급두뇌를 위한 하이브레인넷(hibrain.net)",
+        "error": null,
+        "url_after_redirect": "https://www.hibrain.net/"
+      },
+      "search_functionality": {},
+      "detail_page": {},
+      "overall_status": "warning",
+      "issues": [
+        "search_url이 설정되지 않음"
+      ]
+    },
+    "인크루트": {
+      "site_name": "인크루트",
+      "checked_at": "2025-12-06T16:34:46.434944",
+      "base_url": "https://www.incruit.com",
+      "main_page": {
+        "accessible": true,
+        "load_time_ms": 6631.22,
+        "status_code": 200,
+        "page_title": "인크루트 - 실시간 취업정보 사이트",
+        "error": null,
+        "url_after_redirect": "https://www.incruit.com/"
+      },
+      "search_functionality": {
+        "search_page_accessible": true,
+        "search_load_time_ms": 4645.26,
+        "search_result_found": true,
+        "job_items_count": 14,
+        "job_links_found": 14,
+        "selectors_working": {
+          "a[href*=\"/job/\"]": 14
+        },
+        "error": null
+      },
+      "detail_page": {
+        "accessible": true,
+        "load_time_ms": 4751.05,
+        "has_content": true,
+        "title_found": true,
+        "company_found": true,
+        "content_length": 82963,
+        "error": null
+      },
+      "overall_status": "healthy",
+      "issues": []
+    },
+    "잡코리아": {
+      "site_name": "잡코리아",
+      "checked_at": "2025-12-06T16:35:11.680191",
+      "base_url": "https://www.jobkorea.co.kr",
+      "main_page": {
+        "accessible": true,
+        "load_time_ms": 7490.95,
+        "status_code": 200,
+        "page_title": "잡코리아 | 대한민국 대표 구인구직, 취업 정보 & 채용 플랫폼",
+        "error": null,
+        "url_after_redirect": "https://www.jobkorea.co.kr/"
+      },
+      "search_functionality": {
+        "search_page_accessible": true,
+        "search_load_time_ms": 1949.03,
+        "search_result_found": true,
+        "job_items_count": 1,
+        "job_links_found": 1,
+        "selectors_working": {
+          "a[href*=\"/recruit/\"]": 1
+        },
+        "error": null
+      },
+      "detail_page": {
+        "accessible": true,
+        "load_time_ms": 6315.25,
+        "has_content": true,
+        "title_found": true,
+        "company_found": true,
+        "content_length": 861882,
+        "error": null
+      },
+      "overall_status": "healthy",
+      "issues": []
+    },
+    "잡플래닛": {
+      "site_name": "잡플래닛",
+      "checked_at": "2025-12-06T16:35:36.844848",
+      "base_url": "https://www.jobplanet.co.kr",
+      "main_page": {
+        "accessible": true,
+        "load_time_ms": 2450.63,
+        "status_code": 200,
+        "page_title": "NO.1 기업 정보 플랫폼 | 잡플래닛",
+        "error": null,
+        "url_after_redirect": "https://www.jobplanet.co.kr/welcome/index"
+      },
+      "search_functionality": {
+        "search_page_accessible": true,
+        "search_load_time_ms": 3646.18,
+        "search_result_found": true,
+        "job_items_count": 27,
+        "job_links_found": 15,
+        "selectors_working": {
+          "a[href*=\"/job/\"]": 7,
+          "div[class*=\"job\"]": 21,
+          "div[class*=\"recruit\"]": 27,
+          "article": 2,
+          "li[class*=\"job\"]": 2
+        },
+        "error": null
+      },
+      "detail_page": {
+        "accessible": true,
+        "load_time_ms": 1196.6,
+        "has_content": true,
+        "title_found": true,
+        "company_found": true,
+        "content_length": 211419,
+        "error": null
+      },
+      "overall_status": "healthy",
+      "issues": []
+    },
+    "잡포스팅": {
+      "site_name": "잡포스팅",
+      "checked_at": "2025-12-06T16:35:54.032503",
+      "base_url": "http://jobposting.co.kr",
+      "main_page": {
+        "accessible": true,
+        "load_time_ms": 6111.49,
+        "status_code": 200,
+        "page_title": "잡포스팅 - 잡포스팅 - 외국계기업 No.1 채용사이트",
+        "error": null,
+        "url_after_redirect": "http://jobposting.co.kr/"
+      },
+      "search_functionality": {
+        "search_page_accessible": true,
+        "search_load_time_ms": 967.42,
+        "search_result_found": true,
+        "job_items_count": 13,
+        "job_links_found": 13,
+        "selectors_working": {
+          "a[href*=\"/job/\"]": 13,
+          "div[class*=\"job\"]": 1
+        },
+        "error": null
+      },
+      "detail_page": {
+        "accessible": true,
+        "load_time_ms": 2471.14,
+        "has_content": true,
+        "title_found": true,
+        "company_found": false,
+        "content_length": 212640,
+        "error": null
+      },
+      "overall_status": "healthy",
+      "issues": []
+    },
+    "사람인": {
+      "site_name": "사람인",
+      "checked_at": "2025-12-06T16:36:12.931708",
+      "base_url": "https://www.saramin.co.kr",
+      "main_page": {
+        "accessible": true,
+        "load_time_ms": 4565.61,
+        "status_code": 200,
+        "page_title": "나에게 딱 맞는 커리어만 매치, 사람인! | 취업, 채용, 커리어 매칭 플랫폼",
+        "error": null,
+        "url_after_redirect": "https://www.saramin.co.kr/zf_user/"
+      },
+      "search_functionality": {
+        "search_page_accessible": true,
+        "search_load_time_ms": 3070.54,
+        "search_result_found": true,
+        "job_items_count": 197,
+        "job_links_found": 2,
+        "selectors_working": {
+          "a[href*=\"/recruit/\"]": 2,
+          "div[class*=\"job\"]": 197,
+          "div[class*=\"recruit\"]": 85,
+          "li[class*=\"job\"]": 22
+        },
+        "error": null
+      },
+      "detail_page": {
+        "accessible": true,
+        "load_time_ms": 2715.77,
+        "has_content": true,
+        "title_found": true,
+        "company_found": true,
+        "content_length": 288817,
+        "error": null
+      },
+      "overall_status": "healthy",
+      "issues": []
+    },
+    "워크넷": {
+      "site_name": "워크넷",
+      "checked_at": "2025-12-06T16:36:33.334614",
+      "base_url": "https://www.work24.go.kr",
+      "main_page": {
+        "accessible": true,
+        "load_time_ms": 2180.71,
+        "status_code": 200,
+        "page_title": "메인_개인",
+        "error": null,
+        "url_after_redirect": "https://www.work24.go.kr/cm/main.do"
+      },
+      "search_functionality": {
+        "search_page_accessible": true,
+        "search_load_time_ms": 1295.0,
+        "search_result_found": true,
+        "job_items_count": 10,
+        "job_links_found": 0,
+        "selectors_working": {
+          "div[class*=\"recruit\"]": 1,
+          "article": 10
+        },
+        "error": null
+      },
+      "detail_page": {
+        "accessible": false,
+        "load_time_ms": null,
+        "has_content": false,
+        "title_found": false,
+        "company_found": false,
+        "content_length": 0,
+        "error": "공고 링크를 찾을 수 없음"
+      },
+      "overall_status": "warning",
+      "issues": [
+        "상세 페이지 접속 불가"
+      ]
+    }
+  },
+  "summary": {
+    "total_sites": 10,
+    "healthy": 6,
+    "warning": 3,
+    "failed": 1
+  },
+  "check_completed_at": "2025-12-06T16:36:44.054290"
+}

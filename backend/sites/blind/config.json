@@ -1,0 +1,9 @@
+{
+  "site_name": "블라인드",
+  "base_url": "https://www.teamblind.com",
+  "jobs_url": "https://www.teamblind.com/jobs",
+  "search_url": "https://www.teamblind.com/job/search?keyword={keyword}",
+  "wait_time": 5,
+  "max_retries": 3,
+  "request_delay": 2
+}

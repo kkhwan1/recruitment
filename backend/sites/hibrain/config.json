@@ -1,0 +1,26 @@
+{
+  "site_name": "하이브레인넷",
+  "base_url": "https://www.hibrain.net",
+  "recruitment_url": "https://www.hibrain.net/recruitment",
+  "list_types": {
+    "recommended": "RECOMM",
+    "new": "D3NEW",
+    "ongoing": "ING",
+    "closing_today": "D0END",
+    "closed": "DEND"
+  },
+  "categories": {
+    "professor": "PROF",
+    "lecturer": "TPROF",
+    "researcher": "RES",
+    "postdoc": "POSTD"
+  },
+  "selectors": {
+    "job_container": "a[href*='/recruitment/recruits/']",
+    "job_title": ".recruitTitle",
+    "job_content": ".recruitContent",
+    "job_date": ".recruitDate"
+  },
+  "wait_time": 3,
+  "max_pages": 5
+}

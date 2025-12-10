@@ -1,0 +1,8 @@
+{
+  "site_name": "사람인",
+  "base_url": "https://www.saramin.co.kr",
+  "search_url": "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword={keyword}",
+  "wait_time": 5,
+  "max_retries": 3,
+  "request_delay": 2
+}

@@ -1,0 +1,78 @@
+tier,category,keyword,weight,description
+1,technology,반도체,10,반도체 기술 분야
+1,technology,디스플레이,10,디스플레이 기술 분야
+1,technology,OLED,10,OLED 디스플레이 기술
+1,technology,이차전지,10,이차전지/배터리 기술
+1,technology,2차전지,10,이차전지/배터리 기술 (동의어)
+1,technology,리튬이온,10,리튬이온 배터리
+1,technology,배터리,8,배터리 기술 일반
+1,technology,수소연료전지,10,수소연료전지 기술
+1,technology,조선,10,조선/선박 제조
+1,technology,원자력,10,원자력 기술
+1,technology,원전,10,원자력 발전
+1,technology,우주항공,10,우주항공 기술
+1,technology,항공우주,10,항공우주 기술 (동의어)
+1,technology,방산,10,방위산업
+1,technology,위성,8,위성 기술
+1,technology,AI반도체,10,AI 반도체
+1,technology,광학,8,광학 기술
+1,technology,로봇,8,로봇공학
+1,technology,탄소소재,8,탄소 소재
+1,technology,레이더,8,레이더 기술
+1,technology,MEMS,8,MEMS 기술
+1,technology,레이저,8,레이저 기술
+2,collaboration,해외협업,20,해외 협업 프로젝트
+2,collaboration,기술이전,25,기술 이전
+2,collaboration,파견,20,해외 파견
+2,collaboration,근무지변경,15,근무지 변경 (해외)
+2,collaboration,공동개발,18,공동 개발 프로젝트
+2,collaboration,기술지원,20,기술 지원
+2,collaboration,현지화,18,현지화 프로젝트
+2,collaboration,파트너십,15,파트너십
+2,collaboration,글로벌R&D,20,글로벌 R&D
+2,collaboration,R&D센터,18,R&D 센터
+2,collaboration,글로벌연구소,20,글로벌 연구소
+2,collaboration,산학협력,15,산학 협력
+2,collaboration,기술제휴,20,기술 제휴
+2,collaboration,합작회사,22,합작 회사
+2,collaboration,외국인지원,18,외국인 지원
+2,collaboration,해외투자법인,22,해외 투자 법인
+2,collaboration,법인설립,20,법인 설립
+2,language,중국어필수,25,중국어 필수 조건
+2,language,중국어가능자,22,중국어 가능자 우대
+2,language,중국어우대,20,중국어 우대
+2,language,일본어우대,15,일본어 우대
+2,language,영어필수,12,영어 필수 (일반적)
+2,language,다국적협업,18,다국적 협업
+2,language,cross-border,20,국경 간 협업
+2,language,multilingual,18,다국어 능력
+2,language,글로벌커뮤니케이션,15,글로벌 커뮤니케이션
+2,location,중국근무,25,중국 근무
+2,location,상하이,22,상하이 근무
+2,location,베이징,22,베이징 근무
+2,location,광저우,20,광저우 근무
+2,location,심천,20,심천 근무
+2,location,홍콩근무,23,홍콩 근무
+2,location,UAE근무,20,UAE 근무
+2,location,대만근무,18,대만 근무
+2,location,싱가포르,15,싱가포르 근무
+2,location,해외분사,20,해외 분사
+2,location,국내외근무,18,국내외 근무
+2,company,삼성,15,삼성 그룹
+2,company,삼성전자,18,삼성전자
+2,company,LG,15,LG 그룹
+2,company,LG전자,18,LG전자
+2,company,LG디스플레이,18,LG디스플레이
+2,company,하이닉스,18,SK하이닉스
+2,company,SK하이닉스,18,SK하이닉스
+2,company,대기업우대,15,대기업 경력 우대
+2,company,대기업경력,15,대기업 경력
+3,risk,급구,20,급하게 구함 (의심)
+3,risk,비자필요없음,25,비자 불필요 (불법 가능성)
+3,risk,비자없이,25,비자 없이 (불법 가능성)
+3,risk,현금지급,23,현금 지급 (의심)
+3,risk,숙식제공,18,숙식 제공
+3,risk,여권보관,25,여권 보관 (불법)
+3,risk,여권보완,25,여권 보관 오타 (불법)
+3,risk,즉시출국,22,즉시 출국 (의심)
+3,risk,선불,20,선불 지급 (의심)

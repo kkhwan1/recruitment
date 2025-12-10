@@ -1,0 +1,8 @@
+{
+  "site_name": "인크루트",
+  "base_url": "https://www.incruit.com",
+  "search_url": "https://search.incruit.com/list/search.asp?col=all&kw={keyword}",
+  "wait_time": 3,
+  "max_retries": 3,
+  "request_delay": 2
+}

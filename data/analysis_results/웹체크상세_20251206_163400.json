@@ -1,0 +1,50 @@
+{
+  "check_started_at": "2025-12-06T16:34:00.321919",
+  "sites": {
+    "잡플래닛": {
+      "site_name": "잡플래닛",
+      "checked_at": "2025-12-06T16:33:47.559897",
+      "base_url": "https://www.jobplanet.co.kr",
+      "main_page": {
+        "accessible": true,
+        "load_time_ms": 1739.88,
+        "status_code": 200,
+        "page_title": "NO.1 기업 정보 플랫폼 | 잡플래닛",
+        "error": null,
+        "url_after_redirect": "https://www.jobplanet.co.kr/welcome/index"
+      },
+      "search_functionality": {
+        "search_page_accessible": true,
+        "search_load_time_ms": 2486.65,
+        "search_result_found": true,
+        "job_items_count": 27,
+        "job_links_found": 7,
+        "selectors_working": {
+          "a[href*=\"/job/\"]": 7,
+          "div[class*=\"job\"]": 21,
+          "div[class*=\"recruit\"]": 27,
+          "article": 2,
+          "li[class*=\"job\"]": 2
+        },
+        "error": null
+      },
+      "detail_page": {
+        "accessible": true,
+        "load_time_ms": 1175.09,
+        "has_content": true,
+        "title_found": true,
+        "company_found": true,
+        "content_length": 208351,
+        "error": null
+      },
+      "overall_status": "healthy",
+      "issues": []
+    }
+  },
+  "summary": {
+    "total_sites": 1,
+    "healthy": 1,
+    "warning": 0,
+    "failed": 0
+  }
+}

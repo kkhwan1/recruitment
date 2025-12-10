@@ -1,0 +1,8 @@
+{
+  "site_name": "알바몬",
+  "base_url": "https://www.albamon.com",
+  "search_url": "https://www.albamon.com/total-search?keyword={keyword}",
+  "wait_time": 3,
+  "max_retries": 3,
+  "request_delay": 2
+}
