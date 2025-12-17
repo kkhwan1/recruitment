@@ -22,9 +22,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-from backend.app.api import jobs, crawlers
+from backend.app.api import jobs, crawlers, stats, reports, news
 app.include_router(jobs.router, prefix="/api", tags=["jobs"])
 app.include_router(crawlers.router, prefix="/api", tags=["crawlers"])
+app.include_router(stats.router, prefix="/api", tags=["stats"])
+app.include_router(reports.router, prefix="/api", tags=["reports"])
+app.include_router(news.router, prefix="/api", tags=["news"])
 
 
 @app.get("/")

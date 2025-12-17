@@ -28,13 +28,23 @@ def background_crawl_task(site: str, keyword: str, max_jobs: int):
     run_crawler(site, keywords, industries, max_companies=max_companies, max_jobs_per_company=10, headless=True)
     print(f"Background crawl for {site} finished.")
 
-@router.post("/crawl")
+@router.post("/crawlers/crawl")
 def trigger_crawl(request: CrawlRequest, background_tasks: BackgroundTasks):
     """
-    Trigger a crawler in the background.
+    크롤러 실행 (백그라운드)
+
+    Args:
+        request: {
+            "site": str,          # 크롤링할 사이트 (jobkorea, incruit, saramin, hibrain, all)
+            "keyword": str,       # 검색 키워드 (optional)
+            "max_jobs": int       # 최대 수집 개수 (기본값: 10)
+        }
+
+    Returns:
+        {"message": str, "status": str}
     """
     if request.site not in ["jobkorea", "incruit", "alba", "albamon", "jobplanet", "jobposting", "worknet", "saramin", "hibrain", "blind", "all"]:
         raise HTTPException(status_code=400, detail="Invalid site")
-        
+
     background_tasks.add_task(background_crawl_task, request.site, request.keyword, request.max_jobs)
     return {"message": f"Crawler for {request.site} started in background", "status": "processing"}

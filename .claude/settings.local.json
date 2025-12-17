@@ -7,7 +7,22 @@
       "mcp__bun-mcp__run-bun-install",
       "Bash(npm cache clean:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: 채용 공고 분석 시스템\n\nFeatures:\n- 10개 채용 사이트 크롤러 (JobKorea, Incruit, Saramin, Hibrain, Alba, Albamon, Jobplanet, Jobposting, Worknet, Blind)\n- 3단계 키워드 탐지 시스템 (기술/의심/위험)\n- 복합 패턴 매칭 및 위험도 점수 산정\n- SQLite 데이터베이스 저장\n- React 기반 프론트엔드 대시보드\n- FastAPI 백엔드 API\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(tree:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Skill(codex-agent)",
+      "Bash(if exist frontend rmdir /s /q frontend)",
+      "Bash(npx create-next-app:*)",
+      "Bash(python -m py_compile:*)",
+      "Bash(sqlite3:*)",
+      "Bash(python:*)",
+      "Bash(npx tsc:*)"
     ],
     "deny": [],
     "ask": []
